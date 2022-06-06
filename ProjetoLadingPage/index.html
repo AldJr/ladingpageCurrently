@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um bot que irá analisar e enviar dados para você">'
+    <title>Ald Bot - Prediction Bot</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="nave" src="logosemnome.png" alt="Logo AldRaboni">
+        <nav class="barraheader">
+            <a class="item-barra">Comunidade</a>
+            <a class="item-barra">Sobre</a>
+            <a class="item-barra">Open Source</a>
+            <a class="item-barra">Comandos</a>
+        </nav>
+
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Ald Bot</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Deixe suas análises mais seguras de um jeito fácil</h2>
+                <button id="btn" class="conteudo-principal-escrito-botao">Me adicione</button>
+            </div>
+            <img class="conteudo-principal-escrito-robo" src="robozinho.png" alt="Imagem robozinho">
+        </section>
+        <section class="conteudo-secundario-escrito" >
+            <h3 class="conteudo-secundario-escrito-titulo">Entenda o Ald Bot</h3>
+            <p class="conteudo-secundario-paragrafo">Feita para o seu nível de conhecimento em <strong>operações day trade e swing trade</strong></p>
+            <p class="conteudo-secundario-paragrafo"><strong>Segurança total</strong> em suas operações realizadas</p>
+            <p class="conteudo-secundario-paragrafo">Você com <strong>controle total</strong>, utilize nossos relatórios de performance</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <img class="footer-logo" src="logoconsertado.png" alt="logo aldemir raboni">
+
+    </footer>
+    <script>
+       var test = document.getElementById("btn");
+       test.addEventListener("mouseenter", function( event ) {
+    event.target.style.color = "blue";
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 1000);
+  }, false);
+    </script>
+</body>
+</html>
